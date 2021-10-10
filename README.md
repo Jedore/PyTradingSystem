@@ -5,4 +5,5 @@
 
 估计是这么个架构，只有两个程序，像是一个子账户交易系统：
 
-![PyTradingSystem](https://user-images.githubusercontent.com/83346523/136704269-079dac0d-5319-46fe-8c2e-5056255c2d6f.jpg)
+![PyTradingSystem](https://user-images.githubusercontent.com/83346523/136704911-59022dbb-48b6-42f1-9dae-215efb8f3daf.jpg)
+
