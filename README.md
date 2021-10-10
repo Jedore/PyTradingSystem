@@ -1,6 +1,8 @@
 # PyTradingSystem
 计划写一个纯Python语言编写的股票期货交易系统，初衷是技术交流，一定是轻量级的，但是也能够做实盘交易，先立个Flag，希望有对此感兴趣的朋友一起来完成。
 
+这个系统的订单模块应该不存在平今平昨的概念，不存在开平仓概念，也不存在交易日的概念，只有多空、买卖，并且可以7x24连续运行，不需要结算，平今平昨、开平仓、交易日等概念只存在于某些报盘中，如CTP报盘。
+
 估计是这么个架构，只有两个程序，像是一个子账户交易系统：
 
-![PyTradingSystem](https://user-images.githubusercontent.com/83346523/136703630-34902333-8dea-48d8-9a90-a836dc60c157.jpg)
+![PyTradingSystem](https://user-images.githubusercontent.com/83346523/136704269-079dac0d-5319-46fe-8c2e-5056255c2d6f.jpg)
