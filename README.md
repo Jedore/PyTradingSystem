@@ -3,7 +3,7 @@
 
 这个系统的订单模块应该不存在平今平昨的概念，不存在开平仓概念，也不存在交易日的概念，只有多空、买卖，并且可以7x24连续运行，不需要结算，平今平昨、开平仓、交易日等概念只存在于某些报盘中，如CTP报盘。
 
-估计是这么个架构，只有两个程序，像是一个子账户交易系统：
+估计是这么个架构，只有两个程序，订单与撮合分开，也是机构用交易系统的经典结构，可以有较强的实盘价值：
 
-![PyTradingSystem](https://user-images.githubusercontent.com/83346523/136704911-59022dbb-48b6-42f1-9dae-215efb8f3daf.jpg)
+![PyTradingSystem](https://user-images.githubusercontent.com/83346523/202885348-9f3f2ac1-1d02-4747-81b6-dafb305a88c5.jpg)
 
